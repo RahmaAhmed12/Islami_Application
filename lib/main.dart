@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:islami_c13_sun/ui/model/sura.dart';
 import 'package:islami_c13_sun/ui/screens/hadeth_details/hadeth_details.dart';
 import 'package:islami_c13_sun/ui/screens/home/home.dart';
+import 'package:islami_c13_sun/ui/screens/onboarding/onboarding.dart';
 import 'package:islami_c13_sun/ui/screens/splash/splash.dart';
 import 'package:islami_c13_sun/ui/screens/sura_details_screen/sura_details.dart';
 import 'package:islami_c13_sun/ui/utils/constants.dart';
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
         Splash.routeName: (_) => const Splash(),
         SuraDetails.routeName: (_) => const SuraDetails(),
         HadethDetails.routeName: (_) => const HadethDetails(),
+        Onboarding.routeName: (_) => const Onboarding()
       },
       initialRoute: Splash.routeName,
     );

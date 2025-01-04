@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:islami_c13_sun/ui/screens/onboarding/onboarding.dart';
 import 'package:islami_c13_sun/ui/utils/asset_manager.dart';
-
-import '../home/home.dart';
 
 class Splash extends StatefulWidget {
   static const String routeName = "splash";
@@ -17,7 +16,7 @@ class _SplashState extends State<Splash> {
   void initState() {
     super.initState();
     Future.delayed(const Duration(seconds: 2), () {
-      Navigator.pushNamed(context, Home.routeName);
+      Navigator.pushNamed(context, Onboarding.routeName);
     });
   }
 

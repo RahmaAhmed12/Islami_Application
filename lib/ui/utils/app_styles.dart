@@ -5,6 +5,12 @@ abstract final class AppStyles {
   static const TextStyle primaryBold20 = TextStyle(
       color: AppColors.primary, fontSize: 20, fontWeight: FontWeight.bold);
 
+  static const TextStyle primaryBold16 = TextStyle(
+      color: AppColors.primary, fontSize: 16, fontWeight: FontWeight.bold);
+
+  static const TextStyle primaryBold14 = TextStyle(
+      color: AppColors.primary, fontSize: 14, fontWeight: FontWeight.bold);
+
   static const TextStyle primaryBold24 = TextStyle(
       color: AppColors.primary, fontSize: 24, fontWeight: FontWeight.bold);
 

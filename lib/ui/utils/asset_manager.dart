@@ -16,4 +16,9 @@ abstract final class AssetsManager {
   static const sebhaBackground = "assets/images/sebha_background.png";
   static const sebhaBody = "assets/images/sebha_body.png";
   static const sebhaMask = "assets/images/sebha_mask.png";
+  static const welcome1 = "assets/images/welcome.png";
+  static const welcome2 = "assets/images/welcome2.png";
+  static const doaaimg = "assets/images/doaaimg.png";
+  static const microphone = "assets/images/microphone.png";
+  static const quranreading = "assets/images/quranreading.png";
 }
